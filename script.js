@@ -22,7 +22,7 @@ function makeFruits(items) {
         return acc;
     }, {});
 };
-// console.log(makeFruits(items))
+ console.log(makeFruits(items))
 // Поиск максимального числа в массиве. Используйте reduce для нахождения максимального числа в массиве чисел.
 const numbers3 = [5, 34, 78, 2, 45];
 const max = numbers3.reduce(function (acc, elem) {
